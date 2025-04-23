@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript DOM Demo</title>
+  <style>
+    #dynamicText {
+      color: black;
+      font-size: 20px;
+    }
+    #removable {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="dynamicText">Original Heading</h1>
+  <button onclick="changeContent()">Change Text & Style</button>
+  <button onclick="toggleElement()">Add/Remove Element</button>
+
+  <div id="container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
